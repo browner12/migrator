@@ -13,7 +13,7 @@ Use this package if you want each migrator file to represent a table in the data
 
 ## Who Should Not Use This Package
 
-Do not use this package if you like to traditional migration pattern of running `up` and `down` commands, and each file containing a specific set of directions to change your tables.
+Do not use this package if you like the traditional migration pattern of running `up` and `down` commands, and each file containing a specific set of directions to change your tables.
 
 ## Caution
 
