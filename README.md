@@ -31,7 +31,7 @@ This package was influenced by the Laravel migrator.
 
 Via Composer
 
-``` bash
+```bash
 $ composer require browner12/migrator
 ```
 
@@ -41,7 +41,7 @@ Please see the `docs` folder for full documentation.
 
 ## Testing
 
-``` bash
+```bash
 $ phpunit
 ```
 
