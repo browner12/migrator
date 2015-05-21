@@ -1,0 +1,41 @@
+{
+    "name": "browner12/migrator",
+    "description": "database migrator php",
+    "keywords": [
+        "migrator",
+        "php"
+    ],
+    "homepage": "https://github.com/browner12/migrator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Brown",
+            "email": "browner12@gmail.com",
+            "homepage": "https://github.com/browner12",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+    },
+    "require-dev": {
+        "league/commonmark": "0.*",
+        "phpunit/phpunit": "4.*",
+        "mockery/mockery": "0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "browner12\\migrator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "browner12\\migrator\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
